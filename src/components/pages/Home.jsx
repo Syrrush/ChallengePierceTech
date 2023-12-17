@@ -7,13 +7,15 @@ import PaymentOptions from "../common/PaymentOptions";
 import Trends from "../common/Trends";
 
 export default function Home({ }) {
-    <>
-        <NavBar />
-        <Banners />
-        <Trends />
-        <Categories />
-        <BestSellers />
-        <PaymentOptions />
-        <Footer />
-    </>
+    return (
+        <div>
+            <NavBar />
+            <Banners />
+            <Trends />
+            <Categories />
+            <BestSellers />
+            <PaymentOptions />
+            <Footer />
+        </ div>
+    )
 }

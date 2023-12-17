@@ -1,0 +1,23 @@
+.bgTrends {
+    display: flex;
+    width: 1440px;
+    height: 566px;
+    padding: 0px 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+    background: #DC1E0F;
+}
+
+.trend {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 32px;
+    /* 100% */
+    text-transform: uppercase;
+}

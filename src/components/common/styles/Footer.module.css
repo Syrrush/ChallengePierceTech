@@ -1,0 +1,120 @@
+.allFooter {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.conditions {
+    display: flex;
+    width: 221px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+    text-transform: uppercase;
+}
+
+.btnregret {
+    width: 194px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+}
+
+.regret {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 116.667% */
+}
+
+.images {
+    margin-top: 37px;
+    display: flex;
+    width: 331.589px;
+    height: 15.165px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.groupFooter {
+    display: flex;
+    width: 254.976px;
+    height: 15.165px;
+    flex-shrink: 0;
+}
+
+.powered {
+    width: 173.092px;
+    height: 15.165px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+}
+
+.pierce {
+    width: 69.372px;
+    height: 14.217px;
+    flex-shrink: 0;
+}
+
+.vtex {
+    width: 51.093px;
+    height: 19.679px;
+    flex-shrink: 0;
+}
+
+.title {
+    width: 165px;
+    height: 38px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+.branch {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+    text-transform: uppercase;
+}
+.footerContact{
+    width: 266px;
+height: 64px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+}

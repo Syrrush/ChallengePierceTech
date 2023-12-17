@@ -1,0 +1,46 @@
+.PaymentOptions{
+    display: flex;
+width: 1440px;
+height: 261px;
+padding: 40px 150px;
+justify-content: space-between;
+align-items: flex-start;
+background: #ECECEC;
+}
+.paymentGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.image{
+    width: 43.063px;
+height: 57.083px;
+}
+.groupText{
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+
+}
+.textTop{
+    width: 261px;
+    color: #000;
+text-align: center;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 122.222% */
+text-transform: uppercase;
+}
+.textBottom{
+    width: 263px;
+    color: #3C3C3B;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+}
