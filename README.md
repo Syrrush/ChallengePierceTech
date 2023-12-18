@@ -1,8 +1,24 @@
-# React + Vite
+El repositorio cuenta con la prueba tecnica enviada por Pierce Ecommerce, en la cual se utilizaron las siguientes tecnologías para realizarlo:
+- React.js
+- HTML 5
+- CSS3
+- CSS Module
+- Javascript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para observar los resultados, se puede acceder mediante el link colocado en el "about" o realizar la siguiente instalación (se debe contar con Node.js y npm instalados previamente) :
+- Clonae el repositorio
+- Navegar hasta la raiz del proyecto
+- En la terminal ejecutar los siguientes comandos:
 
-Currently, two official plugins are available:
+  # instalar dependencias
+npm install
+# levantar la app
+npm run dev
+# se puede acceder por localhost puerto 5173 o haciendo ctrl + click izquierdo sobre la ruta.
+  VITE v5.0.8  ready in 192 ms
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+  Ante cualquier duda sobre el mismo proyecto, no dude en contactarme.
