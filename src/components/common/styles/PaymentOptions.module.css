@@ -1,46 +1,118 @@
-.PaymentOptions{
+/* .PaymentOptions {
     display: flex;
-width: 1440px;
-height: 261px;
-padding: 40px 150px;
-justify-content: space-between;
-align-items: flex-start;
-background: #ECECEC;
+    width: 1440px;
+    height: 261px;
+    padding: 40px 150px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #ECECEC;
+} */
+
+.PaymentOptionsContainer {
+    display: flex;
+    width: 1440px;
+    height: 261px;
+    padding: 40px 150px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #ECECEC;
+    margin: auto;
+    margin-top: 5.56rem;
 }
-.paymentGroup{
+
+.paymentGroup {
+    width: 216px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
 }
-.image{
-    width: 43.063px;
-height: 57.083px;
-}
-.groupText{
-    display: flex;
-flex-direction: column;
-align-items: flex-end;
 
+.image {
+    width: 49.063px;
+    height: 57.083px;
 }
-.textTop{
+
+.groupText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.8px
+}
+
+.textTop {
     width: 261px;
     color: #000;
-text-align: center;
-font-family: Rubik;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 22px; /* 122.222% */
-text-transform: uppercase;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 122.222% */
+    text-transform: uppercase;
+    white-space: wrap;
 }
-.textBottom{
+
+.textBottom {
     width: 263px;
     color: #3C3C3B;
-text-align: center;
-font-family: Rubik;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 125% */
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    white-space: wrap;
+}
+
+.responsive {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .PaymentOptionsContainer {
+        width: 360px;
+        display: flex;
+        padding: 40px 0;
+        align-items: flex-start;
+        gap: 80px;
+        overflow: scroll;
+    }
+
+    .PaymentOptions {
+        position: relative;
+    }
+
+    .responsive {
+        position: absolute;
+        bottom: 12.8px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 360px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        gap: 8px;
+    }
+
+    .paymentGroup {
+        width: 360px;
+        flex-shrink: 0;
+        padding: 0 48px;
+    }
+
+    .responsive a {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border: 1px solid #000;
+    }
+
+    active {
+        background-color: #000;
+    }
 }

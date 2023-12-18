@@ -22,6 +22,7 @@ export const categoriasCenterBottomImageText = "CALZAS"
 export const categoriasRightImageText = "PELOTAS"
 
 export const bestSellers = "LAS MAS VENDIDAS"
+export const bestSellersResponsive = "LOS MAS VENDIDOS"
 
 export const PayOptLeftTitle = "Elegí los productos que vas a comprar"
 export const PayOptLeftSub = "Si querés más de uno, sumalos a tu carrito."
@@ -30,13 +31,19 @@ export const PayOptCenterSub = "Comprá con seguridad: usamos la tecnología de 
 export const PayOptRightTitle = "Recibí el producto que esperás"
 export const PayOptRightSub = "Elegí la forma de entrega que prefieras ¡y listo! Aseguramos tu entrega con Mercado Envíos."
 
-export const footerOptions = "condiciones trabaja con nosotros medios de pago preguntas frecuentes"
-export const footerContact = `Whatsapp 2215137270 
-ecommerce@mateu.com.ar 
-La Plata 1900, Buenos Aires, Argentina`
+export const footerOption1 = "condiciones"
+export const footerOption2 = "trabaja con nosotros"
+export const footerOption3 = "medios de pago "
+export const footerOption4 = "preguntas frecuentes"
+
+export const footerContact1 = "Whatsapp 2215137270"
+export const footerContact2 = "ecommerce@mateu.com.ar"
+export const footerContact3 = "La Plata 1900, Buenos Aires, Argentina"
+
 export const regretButton = "Botón de arrepentimiento"
 export const powered = "Powered by Pierce commerce"
 export const branches = "Sucursales"
+export const copyrigth = "© 2023 MateuSports"
 export const products = {
     "Products": [
         {

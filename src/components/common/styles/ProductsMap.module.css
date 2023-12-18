@@ -1,18 +1,22 @@
 .products {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
+    gap: 8px;
+    flex-wrap: nowrap;
+    padding: 0px 16px;
 }
 
 .arrows {
     display: flex;
     width: 1338px;
     justify-content: space-between;
-    align-items: flex-start;
     position: absolute;
-    right: 49px;
-    bottom: 229px;
+    align-items: center;
+    top: 50%;
+    left: 3%;
 }
 
 .arrow {
@@ -20,3 +24,14 @@
     height: 36px;
     flex-shrink: 0;
 }
+
+@media screen and (max-width: 800px){
+
+    .products{
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x mandatory;
+    }
+  
+  }
