@@ -6,9 +6,9 @@ El repositorio cuenta con la prueba tecnica enviada por Pierce Commerce, en la c
 - Javascript
 
 Para observar los resultados, se puede acceder mediante el link colocado en el "about" o realizar la siguiente instalación (se debe contar con Node.js y npm instalados previamente) :
-- Clonae el repositorio
+- Clonar el repositorio
 - Navegar hasta la raiz del proyecto
-- En la terminal ejecutar los siguientes comandos:
+- En la terminal, ejecutar los siguientes comandos:
 
   # instalar dependencias
 npm install
