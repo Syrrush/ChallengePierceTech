@@ -1,4 +1,4 @@
-El repositorio cuenta con la prueba tecnica enviada por Pierce Ecommerce, en la cual se utilizaron las siguientes tecnologías para realizarlo:
+El repositorio cuenta con la prueba tecnica enviada por Pierce Commerce, en la cual se utilizaron las siguientes tecnologías para realizarlo:
 - React.js
 - HTML 5
 - CSS3
